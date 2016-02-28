@@ -3,7 +3,8 @@
 
 环境安装,index.html用来保存html,App.js用来保存React组件，main.js React的入口文件,webpack.config.js用来设置webpack
 
-```npm init
+```
+npm init
 npm install react react-dom --save
 npm install babel-loader babel-core babel-preset-es2015 babel-preset-react
 touch index.html App.js main.js webpack.config.js
