@@ -6,6 +6,7 @@
 * propTypes里边设置属性的类型，如`React.PropTypes.string`,`React.PropTypes.number.isRequired`等
 * defaultProp设置属性的默认值
 * 在Component里边获取属性的方式是`this.props.xxx`，如`this.props.txt`
+
 ##### state
 ```
 class App extends React.Component{
