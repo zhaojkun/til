@@ -84,3 +84,5 @@ var Focus = React.createClass({
 });
 ```
 参考 : http://jamestw.logdown.com/posts/256990-usage-of-thisrefs 
+
+date:2016-02-29

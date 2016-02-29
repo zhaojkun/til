@@ -80,3 +80,5 @@ package.js
 所有代码可参见 [react_helloworld](https://gitlab.com/zhaojkun/react_helloworld)
 
 参考：[react-react-fundamentals-development-environment-setup](https://egghead.io/lessons/react-react-fundamentals-development-environment-setup)
+
+date:2016-02-29
