@@ -14,7 +14,7 @@ Tag: linux
 |         | Interactive login           | Interactive non-login  | Script| 
 | ------------- |:-------------:| :-----:| :---------:|
 | /etc/profile    | A |  |
-| /etc/bash.bashrc     | A      |   |
+| /etc/bash.bashrc  |   | A      |   |
 | ~/.bashrc |       |  B |
 | ~/.bash_profile| B1|
 | ~/.bash_login| B2
