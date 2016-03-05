@@ -110,3 +110,5 @@ Redux的React绑定库包含了容器组件和展示组件相分离的开发思�
 |Aware of Redux|是|否
 |读取数据|从Redux获取State|从props获取数据
 |修改数据|向Redux派发actions|从props调用回调函数
+
+参考文献：http://camsong.github.io/redux-in-chinese/index.html
