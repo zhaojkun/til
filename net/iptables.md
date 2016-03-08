@@ -1,4 +1,4 @@
-#Iptables
+# Iptables
 
 Date: 2016-03-08
 
@@ -6,14 +6,16 @@ Tag: net linux
 
 Linux内核通过`netfilter`模块实现网络访问控制功能，在用户层我们可以通过iptables程序对netfilter进行控制管理。
 
-| Filtering point(chain)| |Table |  |
-| -- | -- | -- | -- |
-| | filter |  net  |mangle |
+| **Filtering point(chain)**| | **Table** |  |
+| ------------- |:-------------:| :-----:|:-------------:| :-----:|
+| | **filter** |  **net**  |**mangle** |
 | INPUT| x |   | x |
 | FORWARD| x |   | x |
 | OUTPUT | x | x | x |
 | PREROUTING |  |x | x |
 | POSTROUTING |  | x | x |
+
+
 
 * `filtering point`为过滤点
 *  filter用于对数据进行过滤
