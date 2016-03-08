@@ -24,7 +24,8 @@ Linux内核通过`netfilter`模块实现网络访问控制功能，在用户层�
 
 
 ![](http://ww1.sinaimg.cn/mw1024/4a3f01ffjw1f1pehipkqbj20d209jq3g.jpg)
-###常用的功能
+
+### 常用的功能
 * 作为服务器使用
   * 过滤到本机的流量  input链，filter表
   * 过滤到本机打出的流量  output链，filter表
@@ -34,7 +35,7 @@ Linux内核通过`netfilter`模块实现网络访问控制功能，在用户层�
 
 `不同的功能是由不同的表实现的`
 
-###规则
+### 规则
 
 * iptables通过规则对数据进行访问控制
 * 一个规则使用一行配置
@@ -51,7 +52,7 @@ iptables -t 表 -A 链  匹配属性  动作
 * 匹配属性：规定匹配数据包的特征
 * 匹配后的动作：放行、丢弃、记录
 
-###常用命令
+### 常用命令
 
 * 列出现有的iptables规则：`iptables -L`
 * 插入一个规则:`iptables -i input 3 -p tcp --dport 22 -j accept`
