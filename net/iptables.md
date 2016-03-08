@@ -9,11 +9,11 @@ Linux内核通过`netfilter`模块实现网络访问控制功能，在用户层�
 | **Filtering point(chain)**| | **Table** |  |
 | ------------- |:-------------:| :-----:|:-------------:| :-----:|
 | | **filter** |  **net**  |**mangle** |
-| INPUT| x |   | x |
-| FORWARD| x |   | x |
-| OUTPUT | x | x | x |
-| PREROUTING |  |x | x |
-| POSTROUTING |  | x | x |
+| INPUT| Y |   | Y |
+| FORWARD| Y |   | Y |
+| OUTPUT | Y | Y | Y |
+| PREROUTING |  |Y | Y |
+| POSTROUTING |  |Y | Y |
 
 
 
