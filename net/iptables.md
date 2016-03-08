@@ -73,3 +73,7 @@ iptables -t 表 -A 链  匹配属性  动作
   * -p tcp --dport 23
   * -p udp --sport 53
   * -p icmp
+  
+参考文献：
+* https://www.youtube.com/watch?v=RO3ug2Y5q3o 
+* https://www.frozentux.net/iptables-tutorial/cn/iptables-tutorial-cn-1.1.19.html
