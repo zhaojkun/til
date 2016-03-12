@@ -14,6 +14,12 @@ COS（Cross-Origin Resource Sharing）跨域资源共享，定义了必须在访
 
 服务器端对于`CROS`的支持，主要就是通过设置`Access-Control-Allow-Origin`来进行的，如果浏览器检测到相应的设置，就可以允许Ajax进行跨域访问。
 
+在`booklist`中使用如下方式进行允许跨域：
+```
+r.Use(cors.New(cors.Config{
+    AllowAllOrigins: true,
+}))
+```
 ### jsonp
 
 `JSONP`由两部分组成：回调函数和数据。回调函数是当响应到来时应该在页面中调用的函数，而数据就是传入回调函数中的JSON数据。`JSONP`利用的是在页面上引入不同域上的js脚本来实现。
@@ -34,3 +40,4 @@ Cros与JSON的对比：
 * https://segmentfault.com/a/1190000000718840
 * http://www.cnblogs.com/rainman/archive/2011/02/20/1959325.html
 * https://segmentfault.com/a/1190000000702539
+
