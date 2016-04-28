@@ -7,3 +7,4 @@
 - [trello](https://trello.com/)
 - [wunderlist](https://www.wunderlist.com/)
 - [mendeley](https://www.mendeley.com/library/)
+- Evernote
