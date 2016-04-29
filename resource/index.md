@@ -9,3 +9,4 @@
 - [mendeley](https://www.mendeley.com/library/)
 - Evernote
 - Lastpass
+- [Pocket](https://getpocket.com/)
