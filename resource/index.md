@@ -8,3 +8,4 @@
 - [wunderlist](https://www.wunderlist.com/)
 - [mendeley](https://www.mendeley.com/library/)
 - Evernote
+- Lastpass
