@@ -2,7 +2,7 @@
 
 Date: 2016-03-07
 
-Tag: react
+Tag: linux
 
 scp 命令可以在linux之间复制文件和目录，命令的基本格式：
 
