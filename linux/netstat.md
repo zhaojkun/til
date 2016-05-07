@@ -1,0 +1,9 @@
+- netstat -a  列出所有当前的连接
+- netstat -at 列出所有TCP协议的连接
+- netstat -au 列出所有UDP协议的连接
+- netstat -ax 列出所有监听unix端口
+- netstat -ant  列出所有TCP协议的连接，但不对ip进行反向域名解析。(-n)选项禁用域名解析功能
+- netstat -tnl  列出所有处于监听的TCP协议。（-l）选项列出所有正在监听的套接字
+- netstat -nlpt  列出所有处于监听状态的TCP协议及其相关的进程信息。(-p)选项查看进程信息（需root权限）。
+- netstat -ltpe  同时列出用户信息   -ep选项可以同时查看进程名和用户名
+- netstat -s 列出网络包的统计情况。
