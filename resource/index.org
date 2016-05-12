@@ -1,12 +1,12 @@
 * 社区
-** [[https://news.ycombinator.com/][hacker news]]
-** [[https://github.com/trending?l=go][github trending of go]]
-** [[https://www.v2ex.com/][ve2x]]
+**** [[https://news.ycombinator.com/][hacker news]]
+**** [[https://github.com/trending?l=go][github trending of go]]
+**** [[https://www.v2ex.com/][ve2x]]
 * 工具
-** [[https://trello.com/][trello]]
-** [[https://www.wunderlist.com/][wunderlist]]
-** [[https://www.mendeley.com/library/][mendeley]]
-** [[http://www.evernote.com][Evernote]]
-** [[http://www.lastpass.com][lastpass]]
-** [[http://www.getpocket.com][Pocket]]
+**** [[https://trello.com/][trello]]
+**** [[https://www.wunderlist.com/][wunderlist]]
+**** [[https://www.mendeley.com/library/][mendeley]]
+**** [[http://www.evernote.com][Evernote]]
+**** [[http://www.lastpass.com][lastpass]]
+**** [[http://www.getpocket.com][Pocket]]
 
