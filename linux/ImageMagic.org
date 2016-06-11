@@ -1,0 +1,53 @@
+* ImageMagic
+*** convert 对图像进行转换，主要用于对图像进行格式转换，缩放，剪切，模糊，反转等操作
+**** 格式转换
+     convert foo.jpg foo.png或mogrify -format png *.jpg
+
+     convert *.jpg foo.pdf
+**** 大小缩放
+     convert -resize 100x100 foo.jpg thumbnail.jpg
+
+     convert -resize 50%x50% foo.jpg thumbnail.jpg
+     
+     批量转换：mogrify -sample 80x60 *.jpg
+**** 加边框
+     convert -mattecolor "#000000" -frame 60x60 youname.jpg remberyou.png
+
+     convert -border 60x60 -bordercolor "#000000" youname.jpg remeberyou.png
+
+     convert -fill green -pointsize 40 -draw 'text 10,50 "Hello world"' foo.png bar.png
+**** 模糊
+     convert -blur 80 foo.jpg foo.png
+**** 翻转
+     convert -flip foo.png bar.png #上下翻转
+     convert -flop foo.png bar.png #左右翻转
+**** 反色
+     convert -negate foo.png bar.png
+**** 单色
+     convert -monochrome foo.png bar.png
+**** 加噪声
+     convert -noise 3 foo.png bar.png
+**** 油画效果
+     convert -paint 4 foo.png bar.png
+**** 旋转
+     convert -rotate 30 foo.png bar.png
+**** 炭笔效果
+     convert -charcoal 2 foo.png bar.png
+**** 其他
+
+*** import 截屏
+    import foo.png
+
+    import -pause 3 -frame foo.png
+
+    impmort -rotate 30 -pause 3 -frame foo.png
+
+    import -pause 3 -window root screen.png
+*** display显示图片
+    display foo.png
+    
+    display *.png
+
+    display -delay 5 *
+
+*** identify 显示图片文件的详细信息

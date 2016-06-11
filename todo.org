@@ -1,2 +1,8 @@
 - My Learning List[0/1]
   - [ ] ImageMagick及相关远程调用
+- R[0/0]
+  - [ ] lapply
+  - [ ] rep
+  - [ ] ave
+
+
