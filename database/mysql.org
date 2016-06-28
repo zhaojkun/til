@@ -1,6 +1,11 @@
-* 连接Mysql
-  连接本机mysql: mysql -u root -p，回车后提示输入密码。或mysql -u root -pPassword  用户名钱可以有空格也可以没有，但密码前必须没有空格，否则让你重新输入密码
+连接本地数据库： mysql -uUser -pPassword
 
-  连接远程主机上的mysql: mysql -h110.110.110.110 -uroot -p123
+连接远程主机的mysql: mysql -h110.110.110.110 -uroot -p123
 
-  退出mysql: exit
+退出mysql: exit
+
+显示所有数据库: show databases;
+
+使用数据库： use <数据库名>;
+
+获取表结构： desc 表名；或show columns from 表名;
