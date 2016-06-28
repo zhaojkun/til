@@ -1,0 +1,6 @@
+* 连接Mysql
+  连接本机mysql: mysql -u root -p，回车后提示输入密码。或mysql -u root -pPassword  用户名钱可以有空格也可以没有，但密码前必须没有空格，否则让你重新输入密码
+
+  连接远程主机上的mysql: mysql -h110.110.110.110 -uroot -p123
+
+  退出mysql: exit
