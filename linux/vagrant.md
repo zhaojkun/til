@@ -19,6 +19,7 @@
 2.`sudo vim /etc/apt/sources.list`
 
 3.替换为以下内容
+
 `#Trusty(14.04)
 deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
 deb http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
