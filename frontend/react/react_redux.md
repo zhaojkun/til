@@ -5,8 +5,9 @@ Date: 2016-03-05
 Tag: react
 
 ####　在`redux`中比较关键的是`connect()`函数，其将相关的`props`和`callback`传入对应的组件中 
-       http://stackoverflow.com/questions/35864957/how-to-use-reduxs-provider-with-react
-
+  相关链接：
+   1. http://stackoverflow.com/questions/35864957/how-to-use-reduxs-provider-with-react
+   2. https://leozdgao.me/reacthe-reduxde-qiao-jie-react-redux/ 
 
 > Action
 
