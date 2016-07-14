@@ -20,7 +20,7 @@
 
 3.替换为以下内容
 
-`#Trusty(14.04)
+#Trusty(14.04)
 
 deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
 
@@ -40,4 +40,4 @@ deb-src http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted univers
 
 deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
 
-deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse`
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
