@@ -4,6 +4,9 @@ Date: 2016-03-05
 
 Tag: react
 
+####　在`redux`中比较关键的是`connect()`函数，其将相关的`props`和`callback`传入对应的组件中
+
+
 > Action
 
 `Action`是把数据从应用传到store的有效载荷，它是store数据的唯一来源。一般来说你会通过store.dispatch()将action传到store
