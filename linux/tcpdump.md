@@ -12,7 +12,35 @@
 
 #### Filter
 
+通过表达式可以对数据包进行过滤。共有三种表达式：
+
+* type
+  * host
+  * net
+  * port
+* dir
+  * src
+  * dst
+  * src or dst
+  * src and dst
+* proto
+
+例如：
+
+* `tcpdump host 1.2.3.4`
+* `tcpdump src 2.3.4.5`
+* `tcpdump dst 3.4.5.6`
+* `tcpdump net 1.2.3.0/24`
+* `tcpdump icmp`
+* `tcpdump port 3389`
+* `tcpdump src port 1025`
+* `tcpdump src port 1025 and tcp`
+* `tcpdump udp and src port 53`
+* `tcpdump portrange 21-23 #Port Range`
+* `tcpdump less 32 #根据数据包大小`
+* `tcpdump greater 128`
+* `tcpdump 'tcp[13] & 16 !=0' # ACK`
+
 参考文献：
 
 * https://danielmiessler.com/study/tcpdump/
-
