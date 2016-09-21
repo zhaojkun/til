@@ -5,7 +5,7 @@
 3. box  [http://www.vagrantbox.es/](http://www.vagrantbox.es/)
 
 ####相关命令
-1. vagrant add box ubuntu xxx
+1. vagrant box add ubuntu xxx
 2. vagrant init ubuntu `(切换到相关目录)`
 3. vagrant up
 4. vagrant init
